@@ -33,7 +33,7 @@ All designs were created within a 90-minute hands-on session using a browser-bas
 | 7 | `unicorn.v` | `tt_um_vga_unicorn` | Animation of a unicorn catching a carrot. |
 | 8 | `tree.v` | `tt_um_vga_tree` | Animation of a tree with leaves gently falling. |
 
-Each design is located in the `src/` directory.
+The designs are located in the `src/` directory.
 
 ---
 
