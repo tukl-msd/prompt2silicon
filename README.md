@@ -111,10 +111,9 @@ To replicate the complete educational workflow used in the workshop:
 3. Create a new design repository using the **[TinyTapeout Verilog Template](https://github.com/TinyTapeout/ttsky-verilog-template)**.  
 4. Begin interacting with the chat agent:
    - Describe your design idea in natural language.  
-   - Let the LLM generate Verilog code.  
+   - Let the LLM-based agent generate Verilog code.  
    - Paste the generated code into the VGA Playground for simulation.
    - Perform debugging or refinement iterations. 
-   - Once satisfied, commit the design to your Tiny Tapeout repo and trigger the GDSII workflow.  
-> **Note:** Detailed explanations can be found in the paper.
+   - Once satisfied, commit the design to your Tiny Tapeout repo and trigger the GDSII workflow.
 
 
