@@ -4,7 +4,7 @@
 
 ## Table of Contents
 - [Repository Overview](#repository-overview)
-- [Simulating the Student Designs](#simulating-the-student-designs)
+- [Simulating the Workshop Designs](#simulating-the-workshop-designs)
 - [Generating the GDSII for the Workshop Designs](#generating-the-gdsii-for-the-workshop-designs)
 - [Chat Agent and Workflow Demo](#chat-agent-and-workflow-demo)
 
