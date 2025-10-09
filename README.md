@@ -1,6 +1,6 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Prompt2Silicon Workshop Designs
+# Prompt2Silicon Workshop Designs & Demo
 
 ## Table of Contents
 - [Repository Overview](#repository-overview)
