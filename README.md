@@ -22,16 +22,16 @@ All designs were created within a 90-minute hands-on session using a browser-bas
 
 ### Workshop Designs Overview
 
-| No. | Design Name | Description |
-|:---:|:-------------|:-------------|
-| 1 | `tt_um_vga_blue_square` | Static blue square centered on screen |
-| 2 | `tt_um_vga_checkerboard` | Animated checkerboard pattern |
-| 3 | `tt_um_vga_color_cycle` | Color-cycling background animation |
-| 4 | `tt_um_vga_pixel_rain` | Falling pixel “rain” effect |
-| 5 | `tt_um_vga_moving_sprite` | Sprite moving horizontally across the screen |
-| 6 | `tt_um_vga_paddle_game` | Interactive paddle controlled via input |
-| 7 | `tt_um_vga_flag_display` | Displays German flag pattern |
-| 8 | `tt_um_vga_color_gradient` | Horizontal RGB color gradient |
+| No. | File Name | Design Name | Description |
+|:---:|:-----------|:-------------|:-------------|
+| 1 | `blue_car.v` | `tt_um_vga_blue_car` | Interactive VGA design where a blue car can be moved horizontally across the screen using pins 0 (left) and 1 (right). |
+| 2 | `aquarium.v` | `tt_um_vga_aquarium` | Animation of multiple fish swimming in an aquarium. |
+| 3 | `pixelart_cat.v` | `tt_um_vga_pixelart_cat` | Static pixel-art style cat image. |
+| 4 | `blue_square.v` | `tt_um_vga_blue_square` | Static VGA design showing a centered blue square. |
+| 5 | `stick_figure.v` | `tt_um_vga_stick_figure` | Interactive animation where a stick figure jumps from left to right depending on pins 1 (left) and 2 (right). |
+| 6 | `red_car.v` | `tt_um_vga_red_car` | Interactive VGA design where a red car can be moved horizontally across the screen using pins 0 (left) and 1 (right). |
+| 7 | `unicorn.v` | `tt_um_vga_unicorn` | Animation of a unicorn catching a carrot. |
+| 8 | `tree.v` | `tt_um_vga_tree` | Animation of a tree with leaves gently falling. |
 
 Each design is located in the `src/` directory.
 
@@ -49,7 +49,9 @@ To explore or test the designs:
 
 4. Copy and paste the Verilog code of the desired design into the Playground’s code editor.
 
-5. Run the simulation directly in the browser to visualize the VGA output and verify its functionality.
+5. Rename the module to `tt_um_vga_example` (required by VGA Playground).
+
+6. Run the simulation directly in the browser to visualize the VGA output and verify its functionality.
 
 ---
 
