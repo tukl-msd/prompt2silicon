@@ -8,39 +8,37 @@ The workflow guides students through:
 1. **Idea formulation** (describing the desired circuit in natural language)
 2. **RTL code generation and debugging** (Verilog)
 3. **Simulation and verification** (Tiny Tapeout VGA Playground)
-4. **Synthesis and tapeout preparation** using the TinyTapeout SKY130 flow
+4. **Synthesis and tapeout preparation** using the TinyTapeout Verilog template
+
+Detailed **chatbot and workflow demo instructions**, as well as steps on **how to perform the backend flow** for the student designs, can be found in the **`README.md`** of this repository.
 
 ---
 
 ## How to test
 To explore or test the designs:
-1. Open the corresponding design folder (each represents one student group’s project).  
-2. Review the included `verilog/` source files and `info.yaml` metadata.
-3. Use the [TinyTapeout simulation environment](https://tinytapeout.com/faq/simulate/) or the [TinyTapeout template repository](https://github.com/TinyTapeout/ttsky-verilog-template) to:
-   - Simulate the design (`make sim`)
-   - Generate the layout (`make gds`)
-   - View the GDS in KLayout or Magic
 
-Alternatively, you can run the designs directly in the **browser-based workflow** (used during the workshop) — see instructions in the main project’s `README.md`.
+1. Open the corresponding design file in the `src/` folder.  
+   This folder contains all **eight student group designs** created during the workshop.
+2. Review the Verilog source code to understand the implemented logic and behavior.
+3. To simulate the design, open the **[Tiny Tapeout VGA Playground](https://vga-playground.com/)** in your browser.
+4. Copy and paste the Verilog code of the desired design into the Playground’s code editor.
+5. Run the simulation directly in the browser to visualize the design’s VGA output and verify its functionality.
 
 ---
 
 ## External hardware
-Some designs target VGA display output or LED visualization:
-- **VGA monitor** (connected via TinyTapeout board)
-- **8× LED matrix** or **on-board LEDs**
-- **Push buttons** for user input in interactive designs
-
-Each design’s specific hardware interface is documented in its subfolder.
+- All designs target **VGA display output**.  
+- Therefore, a **VGA PMOD adapter**, e.g. [TinyVGA PMOD Adapter](https://store.tinytapeout.com/products/TinyVGA-Pmod-p678647356), and a **VGA monitor** are required.  
+- The **Tiny Tapeout development board** provides a PMOD interface for connecting the VGA adapter.
 
 ---
 
 ## Acknowledgment
-This repository is part of the **Prompt2Silicon** educational initiative and the associated **ISCAS 2026 paper**:  
-> _“LLM-Assisted Chip Design Education: From RTL to Prompt Coding”_
+This repository is associated with the following paper submitted to **ISCAS 2026**:  
+> _“From RTL to Prompt Coding: Empowering the Next Generation of Chip Designers through LLMs”_
 
-Workshop conducted by [Your Name / Institution].
+The workshop and accompanying designs were conducted and supervised by  
+**Dr.-Ing. Lukas Krupp**, Microelectronic System Design Research Group,  
+**RPTU University of Kaiserslautern-Landau**.
 
 ---
-
-Would you like me to add a short `README.md` for the root of the repository as well — including citation, structure overview, and link to your paper (for GitHub and Zenodo integration)? That helps make it directly citable in IEEE format.
