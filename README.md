@@ -2,16 +2,21 @@
 
 # Prompt2Silicon Workshop Designs
 
+## Table of Contents
+- [Repository Overview](#repository-overview)
+- [Simulating the Student Designs](#simulating-the-student-designs)
+- [Generating the GDSII for the Workshop Designs](#generating-the-gdsii-for-the-workshop-designs)
+- [Chat Agent and Workflow Demo](#chat-agent-and-workflow-demo)
+
 ## Repository Overview
 This repository is associated with the paper submitted to **IEEE ISCAS 2026**:  
 > _“From RTL to Prompt Coding: Empowering the Next Generation of Chip Designers through LLMs”_  
+
 A preprint will be made available on **arXiv** (link will be added here).
 
-This repository contains all student designs developed during the **LLM-assisted Tiny Tapeout Workshop** with German high-school students (Grades 10–12). The workshop served as a case study to evaluate the methodology introduced in the paper.  
-The workshop demonstrated how **Large Language Models (LLMs)** can guide beginners from natural-language design ideas to functional **VGA chip implementations** using the **Tiny Tapeout** open-source ecosystem.
+This repository contains all student designs developed during the **LLM-assisted Tiny Tapeout Workshop** with German high-school students (Grades 10–12). The workshop served as a case study to evaluate the methodology introduced in the paper. The workshop demonstrated how **Large Language Models (LLMs)** can guide beginners from natural-language design ideas to functional **VGA chip implementations** using the **Tiny Tapeout** open-source ecosystem.
 
-All designs were created within a 90-minute hands-on session using a browser-based **LLM chat agent** and a new **idea-to-GDSII workflow**.  
-Each project was verified through simulation and successfully synthesized into a **tapeout-ready GDSII design**.
+All designs were created within a 90-minute hands-on session using a browser-based **LLM chat agent** and a new **idea-to-GDSII workflow**. Each project was verified through simulation and successfully synthesized into a **tapeout-ready GDSII design**.
 
 ---
 
@@ -92,7 +97,7 @@ Once the workflow completes, all artifacts can be viewed in the **Actions** tab 
 
 Two hosted versions of the chat agent are available:
 - 🇬🇧 **English version** — [Hosted on Hugging Face (link to be added)]  
-- 🇩🇪 **German version** — [Hosted on Hugging Face (link to be added)]
+- 🇩🇪 **German version** — [Hosted on Hugging Face](https://huggingface.co/spaces/lkrupp/prompt2rtl-demo-de)
 
 To replicate the complete educational workflow used in the workshop:
 
@@ -105,6 +110,6 @@ To replicate the complete educational workflow used in the workshop:
    - Paste the generated code into the VGA Playground for simulation.
    - Perform debugging or refinement iterations. 
    - Once satisfied, commit the design to your Tiny Tapeout repo and trigger the GDSII workflow.  
-> **Note:**: Detailed explanations can be found in the paper.
+> **Note:** Detailed explanations can be found in the paper.
 
 
