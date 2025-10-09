@@ -104,7 +104,7 @@ Two hosted versions of the chat agent are available:
 
 To replicate the complete educational workflow used in the workshop:
 
-1. Open the **Chat Agent** (in your preferred language) in one browser tab.  
+1. Open the **Chat Agent** (in your preferred language) in one browser tab and insert your OpenAI API key.  
 2. Open the **[Tiny Tapeout VGA Playground](https://vga-playground.com/)** in a second tab for simulation.  
 3. Create a new design repository using the **[TinyTapeout Verilog Template](https://github.com/TinyTapeout/ttsky-verilog-template)**.  
 4. Begin interacting with the chat agent:
