@@ -82,16 +82,16 @@ To generate the GDSII layout for any workshop design:
 
 > **Note:** For some designs, you may need to adjust the `tile_number` in the `info.yaml` file, as shown below:
 
-| Design Name | Tile No. |
-|:-------------|:---------:|
-| `tt_um_vga_blue_square` | 25 |
-| `tt_um_vga_checkerboard` | 26 |
-| `tt_um_vga_color_cycle` | 27 |
-| `tt_um_vga_pixel_rain` | 28 |
-| `tt_um_vga_moving_sprite` | 29 |
-| `tt_um_vga_paddle_game` | 30 |
-| `tt_um_vga_flag_display` | 31 |
-| `tt_um_vga_color_gradient` | 32 |
+| Design Name | Tiles |
+|:--------------------------|:------:|
+| `tt_um_vga_blue_car` | 1×1 |
+| `tt_um_vga_aquarium` | 1×1 |
+| `tt_um_vga_pixelart_cat` | 1×1 |
+| `tt_um_vga_blue_square` | 1×1 |
+| `tt_um_vga_stick_figure` | 2×2 |
+| `tt_um_vga_red_car` | 1×1 |
+| `tt_um_vga_unicorn` | 1×1 |
+| `tt_um_vga_tree` | 1×2 |
 
 Once the workflow completes, all artifacts can be viewed in the **Actions** tab of the repository.
 
