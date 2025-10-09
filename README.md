@@ -97,9 +97,9 @@ Once the workflow completes, all artifacts can be viewed in the **Actions** tab 
 
 ## Chat Agent and Workflow Demo
 
-Two hosted versions of the chat agent are available:
-- 🇬🇧 **English version** — [Hosted on Hugging Face (link to be added)]  
-- 🇩🇪 **German version** — [Hosted on Hugging Face](https://huggingface.co/spaces/lkrupp/prompt2rtl-demo-de)
+Two hosted versions of the chat agent are available on Hugging Face:
+- 🇬🇧 [**English version**](https://huggingface.co/spaces/lkrupp/prompt2rtl-demo-en)  
+- 🇩🇪 [**German version**](https://huggingface.co/spaces/lkrupp/prompt2rtl-demo-de)
 
 > ⚠️ **Note:** Using the chat agents requires an [**OpenAI API key**](https://platform.openai.com/api-keys).  
 > Please ensure that a valid key is configured in the demo application.
