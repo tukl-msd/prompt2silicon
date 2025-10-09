@@ -80,7 +80,7 @@ To generate the GDSII layout for any workshop design:
 4. Commit and push the changes to your fork.  
 5. The **GitHub Actions** backend (TinyTapeout GDS flow) will automatically start.
 
-> **Note:** For some designs, you may need to adjust the `tile_number` in the `info.yaml` file, as shown below:
+> **Note:** For some designs, you may need to adjust the number of `tiles` in the `info.yaml` file, as shown below:
 
 | Design Name | Tiles |
 |:--------------------------|:------:|
