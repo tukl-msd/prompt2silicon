@@ -7,20 +7,22 @@
 - [Simulating the Workshop Designs](#simulating-the-workshop-designs)
 - [Generating the GDSII for the Workshop Designs](#generating-the-gdsii-for-the-workshop-designs)
 - [Chat Agent and Workflow Demo](#chat-agent-and-workflow-demo)
+- [Contact Information](#contact-information)
 
 ## Repository Overview
-This repository is associated with the paper submitted to **IEEE ISCAS 2026**:  
+This repository is associated with the paper:  
 > _“From RTL to Prompt Coding: Empowering the Next Generation of Chip Designers through LLMs”_  
 
 A preprint will be made available on **arXiv** (link will be added here).
 
-This repository contains all student designs developed during the **LLM-assisted Tiny Tapeout Workshop** with German high-school students (Grades 10–12). The workshop served as a case study to evaluate the methodology introduced in the paper. The workshop demonstrated how **Large Language Models (LLMs)** can guide beginners from natural-language design ideas to functional **VGA chip implementations** using the **Tiny Tapeout** open-source ecosystem.
+This repository contains all student designs developed during the **LLM-assisted Tiny Tapeout Workshop** with German high-school students (Grades 10–12) within 90 minutes. The workshop served as a case study to evaluate the methodology introduced in the paper. The workshop demonstrated how **Large Language Models (LLMs)** can guide beginners from natural-language design ideas to functional **VGA chip implementations** using the **Tiny Tapeout** open-source ecosystem.
 
-All designs were created within a 90-minute hands-on session using a browser-based **LLM chat agent** and a new **idea-to-GDSII workflow**. Each project was verified through simulation and successfully synthesized into a **tapeout-ready GDSII design**.
+The **LLM-based chat agent** used during the workshop is **hosted on Hugging Face** (available in English and German), and this repository provides **instructions on how to [replicate the workflow](#chat-agent-and-workflow-demo)**.
 
 ---
 
 ### Workshop Designs Overview
+The designs are located in the `src/` directory.
 
 | No. | File Name | Design Name | Description |
 |:---:|:-----------|:-------------|:-------------|
@@ -33,13 +35,11 @@ All designs were created within a 90-minute hands-on session using a browser-bas
 | 7 | `unicorn.v` | `tt_um_vga_unicorn` | Animation of a unicorn catching a carrot. |
 | 8 | `tree.v` | `tt_um_vga_tree` | Animation of a tree with leaves gently falling. |
 
-The designs are located in the `src/` directory.
-
 ---
 
 ## Simulating the Workshop Designs
 
-To explore or test the designs:
+To explore or test the workshop designs:
 
 1. Open the corresponding design file in the `src/` folder.  
 
@@ -57,7 +57,7 @@ To explore or test the designs:
 
 ## Generating the GDSII for the Workshop Designs
 
-The repository supports backend generation via **GitHub Actions**, using the official Tiny Tapeout GDSII workflow.
+The repository supports the synthesis and backend flow via **GitHub Actions**, using the Tiny Tapeout Verilog template.
 
 To generate the GDSII layout for any workshop design:
 
@@ -109,11 +109,20 @@ To replicate the complete educational workflow used in the workshop:
 1. Open the **Chat Agent** (in your preferred language) in one browser tab and insert your OpenAI API key.  
 2. Open the **[Tiny Tapeout VGA Playground](https://vga-playground.com/)** in a second tab for simulation.  
 3. Create a new design repository using the **[TinyTapeout Verilog Template](https://github.com/TinyTapeout/ttsky-verilog-template)**.  
-4. Begin interacting with the chat agent:
+4. Start the workflow and begin interacting with the chat agent:
    - Describe your design idea in natural language.  
    - Let the LLM-based agent generate Verilog code.  
    - Paste the generated code into the VGA Playground for simulation.
    - Perform debugging or refinement iterations. 
    - Once satisfied, commit the design to your Tiny Tapeout repo and trigger the GDSII workflow.
 
+## Contact Information
 
+For questions, collaboration requests, or further details about the **Prompt2Silicon** workshop or the paper, please contact:
+
+**Dr.-Ing. Lukas Krupp**  
+Microelectronic System Design Research Group  
+RPTU University of Kaiserslautern-Landau  
+67663 Kaiserslautern, Germany  
+📧 [lukas.krupp@rptu.de](mailto:lukas.krupp@rptu.de)  
+🌐 [https://ems.eit.rptu.de](https://ems.eit.rptu.de)
