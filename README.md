@@ -125,4 +125,3 @@ Microelectronic System Design Research Group
 RPTU University of Kaiserslautern-Landau  
 67663 Kaiserslautern, Germany  
 📧 lukas.krupp [AT] rptu.de
-🌐 [https://ems.eit.rptu.de](https://ems.eit.rptu.de)
