@@ -34,7 +34,7 @@ To explore or test the designs:
 ---
 
 ## Acknowledgment
-This repository is associated with the following paper submitted to **ISCAS 2026**:  
+This repository is associated with the following paper:  
 > _“From RTL to Prompt Coding: Empowering the Next Generation of Chip Designers through LLMs”_
 
 The workshop and accompanying designs were conducted and supervised by  
