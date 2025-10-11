@@ -13,7 +13,7 @@
 This repository is associated with the paper:  
 > _“From RTL to Prompt Coding: Empowering the Next Generation of Chip Designers through LLMs”_  
 
-A preprint will be made available on **arXiv** (link will be added here).
+A preprint will be made available on **arXiv**.
 
 This repository contains all student designs developed during the **LLM-assisted Tiny Tapeout Workshop** with German high-school students (Grades 10–12) within 90 minutes. The workshop served as a case study to evaluate the methodology introduced in the paper. The workshop demonstrated how **Large Language Models (LLMs)** can guide beginners from natural-language design ideas to functional **VGA chip implementations** using the **Tiny Tapeout** open-source ecosystem.
 
