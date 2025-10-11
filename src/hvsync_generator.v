@@ -1,3 +1,8 @@
+/*
+* Copyright (c) 2025 Tiny Tapeout
+* SPDX-License-Identifier: Apache-2.0
+*/
+
 module hvsync_generator (
     input  wire clk,
     input  wire reset,
