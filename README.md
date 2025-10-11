@@ -80,6 +80,8 @@ To generate the GDSII layout for any workshop design:
 4. Commit and push the changes to your fork.  
 5. The **GitHub Actions** backend (TinyTapeout GDS flow) will automatically start.
 
+Once the workflow completes, all artifacts can be viewed in the **Actions** tab of the repository. Tiny Tapeout also provides detailed [documentation](https://tinytapeout.com/guides/workshop/create-your-gds/) on the GDS generation and the navigation of GitHub Actions. 
+
 > **Note:** For some designs, you may need to adjust the number of `tiles` in the `info.yaml` file, as shown below:
 
 | Design Name | Tiles |
@@ -92,8 +94,6 @@ To generate the GDSII layout for any workshop design:
 | `tt_um_vga_red_car` | 1×1 |
 | `tt_um_vga_unicorn` | 1×1 |
 | `tt_um_vga_tree` | 1×2 |
-
-Once the workflow completes, all artifacts can be viewed in the **Actions** tab of the repository.
 
 ## Chat Agent and Workflow Demo
 
