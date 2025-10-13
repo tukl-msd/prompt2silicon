@@ -120,8 +120,7 @@ To replicate the complete educational workflow used in the workshop:
 
 For questions, collaboration requests, or further details about the **Prompt2Silicon** workshop or the paper, please contact:
 
-**Dr.-Ing. Lukas Krupp**  
+Dr.-Ing. Lukas Krupp
 Microelectronic System Design Research Group  
 RPTU University of Kaiserslautern-Landau  
-67663 Kaiserslautern, Germany  
 📧 lukas.krupp [AT] rptu.de
