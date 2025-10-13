@@ -15,7 +15,7 @@ This repository is associated with the paper:
 
 A preprint will be made available on **arXiv**.
 
-This repository contains all student designs developed during the **LLM-assisted Tiny Tapeout Workshop** with German high-school students (Grades 10–12) within 90 minutes. The workshop served as a case study to evaluate the methodology introduced in the paper. The workshop demonstrated how **Large Language Models (LLMs)** can guide beginners from natural-language design ideas to functional **VGA chip implementations** using the **Tiny Tapeout** open-source ecosystem.
+This repository contains all student designs developed during the **LLM-assisted Tiny Tapeout Workshop** with German high-school students (Grades 10–12). The 90-minute workshop served as a case study to evaluate the methodology introduced in the paper. The workshop demonstrated how **Large Language Models (LLMs)** can guide beginners from natural-language design ideas to functional **VGA chip implementations** using the **Tiny Tapeout** open-source ecosystem.
 
 The **LLM-based chat agent** used during the workshop is **hosted on Hugging Face** (available in English and German), and this repository provides **instructions on how to [replicate the workflow](#chat-agent-and-workflow-demo)**.
 
